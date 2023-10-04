@@ -1,9 +1,9 @@
 /******* Bootstrap Theming ********/
 
-$primary: #1a539e;
+$primary: #001C53;
 $secondary: #62C3E7;
 $light: #FFFFFF;
-$dark: #333333;
+$dark: #00AEEF;
 
 $font-family-sans-serif: 'Poppins', sans-serif;
 
@@ -91,7 +91,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: $primary;
+    color: $light;
 }
 
 @media (max-width: 991.98px) {
@@ -122,6 +122,11 @@ h6,
 
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/header.jpg), no-repeat center center;
+    background-size: cover;
+}
+
+.page-header1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/service-1.jpg), no-repeat center center;
     background-size: cover;
 }
 
@@ -453,4 +458,13 @@ h6,
     .footer .border-right {
         border-right: none !important;
     }
+}
+
+.menu-fondo{
+    background-color:$primary;
+}
+
+.logo-menu{
+    width: 350px ;
+    height: 150px;
 }
