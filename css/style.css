@@ -9334,8 +9334,17 @@ h6,
 }
 
 .page-header1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/service-1.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/header2.jpg), no-repeat center center;
   background-size: cover;
+}
+
+.page-header2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/header3.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.menu{
+  margin-bottom: -4% !important;
 }
 
 .section-title::before {
