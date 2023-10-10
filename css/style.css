@@ -9334,7 +9334,7 @@ h6,
 }
 
 .page-header1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/service-1.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/carousel-1.jpeg), no-repeat center center;
   background-size: cover;
 }
 
@@ -9667,11 +9667,6 @@ h6,
 }
 .menu-fondo {
   background-color: #001C53;
-}
-
-.nav-bar::before #menu {
-  border-radius: 50% !important;
-  background-color: #001C53 !important;
 }
 
 .logo-menu {
